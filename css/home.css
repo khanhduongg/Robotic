@@ -1,0 +1,396 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+html {
+font-size: 16px;    
+}
+.warp{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#header{
+    background-color:#fff;
+}
+.header-warp{
+    background-color: #00cccc;
+}
+#header .header-top{
+    max-width: 70%;
+    line-height: 3rem;
+    background-color: #00cccc;
+    margin: auto;
+    align-items: center;
+}
+#header .header-search input {
+    background-color: #00cccc;
+    border: 1px solid #ccc;
+    border-radius: 0.6rem;
+    line-height: 30px;
+    margin-right: 3rem;
+    font-size: 1.2rem;
+    /* padding: 0.2rem 0.8rem;
+    margin-top: 0.5rem;
+    margin-right: 4rem; */
+}
+.header-icon img {
+    /* width: 18%; */
+    margin: 0 0.8rem;
+}
+.header-nav{
+    margin: auto;
+    max-width: 70%;
+    height: 58px;
+    background-color: #fff;
+    padding: 0.8rem 0;
+    justify-content: space-between;
+}
+.header-nav li {
+    list-style-type: none;
+}
+.header-nav img{
+    width: 60%;
+}
+.nav-item {
+    line-height: 34px;
+}
+.nav-item  li>a{
+    color: #000;
+    margin: 0 1.2rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+.header-slider{
+    position: relative;
+}
+.slider-img img{
+    width: 100%;
+}
+.slider-item{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+.slider-item p {
+    font-weight: 700;
+}
+.slider-item button {
+    padding: 0.6rem 1rem;
+    background-color: #ff6666;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+}
+.header-form{
+    max-width: 70%;
+    margin: auto;
+    background-color:#33cc99 ;
+    padding-bottom: 2rem;
+}
+.header-form p {
+    max-width:90%;
+    margin: auto;
+    padding: 1.2rem;
+    font-size: .875em;
+    color: #fff;
+}
+.header-form span{
+    color: #fff;
+    font-weight: 700;
+
+}
+.form-list{
+    max-width:90%;
+    margin: auto;
+}
+.form-list input{
+    font-family:Arial;
+    margin: 0.4rem 0.4rem;
+    padding: 0.6rem;
+}
+.form-list button{
+    background-color:#ff6666 ;
+    color: #fff;
+    margin: 0.4rem 0.4rem;
+    padding: 0.6rem 4.8rem ;
+    border: none;
+    font-weight: 700;
+
+}
+.section-introduce{
+    position: relative;
+}
+.introduce-backgroud img{
+    width: 100%;
+}
+.span-color{
+    color: #00cccc;
+    font-weight: 700;
+}
+.introduce-text h3 {
+    font-weight: 700;
+}
+.lines {
+    padding: 0.2rem;
+    background: #0099cc;
+    width: 10rem;
+}
+.introduce-text button{
+    padding: 0.6rem 1rem;
+    background-color: #ff6666;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+}
+.introduce-text{
+    position: absolute;
+    top: 16%;
+    left: 15%;
+    width: 40%;
+    text-align: justify;
+    font-weight: 400;
+}
+.introduce-text p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.section-train{
+    position: relative;
+}
+.train-content {
+    max-width: 80%;
+    position: absolute;
+    top: 12%;
+}
+.train-backgroud img{
+    height: 700px;
+}
+.train-content .train-list img{
+    width: 340px;
+    margin: auto;
+}
+.train-text{
+    padding-bottom: 2rem;
+    margin: 0 2.2rem;
+
+}
+.item-text h4{
+    color: #fff;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-weight: 650;
+
+}
+.item-text p{
+    color: #fff;
+    padding-left: 1rem;
+    font-weight: 400;
+
+}
+.item-right{
+    text-align: end;
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
+.item-text span {
+    color: #fff;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 0.4rem;
+}
+.item-level1{
+    background-color: #ff6666;
+}
+.item-level2{
+    background-color: #33cc99;
+}
+.item-level3{
+    background-color: #00cccc;
+}
+.section-product{
+    position: relative;
+    background: url('/img/Trang chủ/Background\ sp\ hoc\ vien.png') top center/ cover no-repeat;
+}
+.product-container{
+    max-width: 100%;
+    margin: auto;
+    height: 650px;
+    align-items: center;
+}
+.product-list{
+    position: absolute;
+    top: 30%;
+}
+.product-list img{
+    width: 25%; 
+}
+.product-text{
+    max-width: 70%;
+    margin: auto;
+    padding-top: 3.5rem;
+}
+.product-text h2{
+    font-weight: 400;
+}
+.product-text span{
+    font-weight: 700;
+
+}
+.product-text p {
+    text-align: justify;
+    font-size: 1rem;
+}
+.product-button {
+    text-align: center;
+    margin: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.product-button span {
+    color: #000;
+    font-size: 1rem;
+    border: 1px solid #000;
+    border-radius: 2px;
+    padding: 0.6rem;
+}
+.section-news-text{
+    padding: 0 2rem;
+}
+.section-news-text h4{
+    font-size: 1.6rem;
+}
+.news-backgroud,
+.news-container
+{
+    max-width: 75%;
+    margin: auto;
+    padding: 2rem 0;
+    background-color: #fff;
+    height: 700px;
+}
+.news-img img{
+    width: 340px;
+    margin: auto;
+}
+.news-text{
+    width: 340px;
+    margin: auto;
+    background: #f7f2f2;
+}
+.news-text h4 {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    margin: 1rem 1rem;
+}
+.news-text hr{
+    height: 2px;
+}
+.news-text p {
+    font-size: 1rem;
+    margin: 1rem 1rem;
+    text-align: justify;
+}
+.news-right {
+    text-align: right;
+    margin: 1rem 1rem;
+    padding-bottom: 1rem;
+}
+.section-partner{
+    position: relative;
+    height: 170px;
+    background: url('../img/Trang chủ/bgdoitac2.png');
+}
+.partner-container{
+    margin: auto;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+.partner-text h2 span{
+    font-size: 2.4rem;
+}
+.partner-logo{
+    padding-left: 4.2rem;
+}
+.partner-backgroud{
+    background-color: #fff;
+    padding: 1.4rem;
+    margin: 0 1rem;
+}
+#footer{
+    background-color: #fff;
+    height: 300px;
+}
+.footer-container{
+    max-width: 75%;
+    margin: auto;
+    padding: 2rem;
+}
+.footer-logo {
+    text-align: center;
+}
+.footer-logo ul {
+    padding: 3rem 0; 
+}
+.text-logo-bottom,
+.text-logo-top{
+    background-color: #ccc;
+    padding-bottom: 0.4rem;
+    margin-bottom: 1rem;
+    opacity: 0.4;
+}
+.footer-logo li a{
+    line-height: 40px;
+    width: 100%;
+    color: #000;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.footer-sitemap h2,
+.footer-addres h2 {
+    font-size: 1rem;
+    text-align: left;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-weight: 700;
+}
+.footer-line{
+    padding: 0.1rem;
+    background: #000;
+    width: 4rem;
+    margin-left: 2rem;
+}
+.footer-addres ul{
+    padding: 0.6rem 0;
+    padding-left: 2rem;
+}
+.footer-addres li{
+    margin-bottom: 0.6rem;
+}
+.footer-sitemap li a ,
+.footer-addres li a {
+    color: #000;
+    text-decoration: none;
+    padding: 2rem 0;
+}
+.footer-item img{
+    width: 80%;
+}
+.footer-item ul{
+    padding-right: 1rem;
+}
+.footer-item  li i{
+    font-size: 30px;
+    padding: 1rem 0.2rem; 
+}
+.footer-item p a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000;
+}
