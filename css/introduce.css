@@ -1,0 +1,69 @@
+.header-bottom{
+    background: url('/img/gioithieu/headertop.png');
+    height: 160px;
+    text-align: left;
+    position: relative;
+}
+.header-bottom-text {
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 15%;
+}
+.header-bottom-text h2{
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.text-bottom{
+    font-size: 0.8rem;
+}
+.text-bottom span {
+    font-weight: 700;
+}
+.introduce-top-text p {
+    text-align: justify;
+    font-size: 0.8rem;
+}
+.introduce-top-img{
+    margin-left: 2rem;
+}
+.section-vision-backgroud{
+    background-color:azure;
+}
+.section-vision-top{
+    position: relative;
+}
+.section-vision-text{
+    position: absolute;
+    top: 22%;
+    left: 40%;
+    color: #fff;
+}
+.section-vision-text h2{
+    font-weight: 700;
+}
+.section-vision-text h3{
+    font-weight: 400;
+}
+
+.section-vision-bottom p{
+    font-size: 0.8rem;
+}
+.vision-text-item p{
+    margin-left: 1rem;
+}
+.vision-list{
+    background: #0099cc;
+}
+.vision-list img{
+    max-width: 35%;
+}
+.section-mission-titlie p{
+    font-size: 0.8rem;
+}
+.section-mission-text p{
+    margin-right: 1rem;
+}
+.section-culture{
+    background-color:azure;
+}

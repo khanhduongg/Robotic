@@ -1,0 +1,17 @@
+.mw-70{
+    max-width: 70%;
+}
+.span-color{
+    color: #00cccc;
+    font-weight: 700;
+}
+.red-color{
+    color: red;
+}
+.introduce-top-img,
+.introduce-top-text {
+    flex: 1;
+}
+.text-aline-jus{
+    text-align: justify;
+}
